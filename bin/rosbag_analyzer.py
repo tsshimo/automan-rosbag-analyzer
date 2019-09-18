@@ -36,7 +36,7 @@ class RosbagAnalyzer(object):
 
             return dataset_candidates
         except Exception as e:
-            # FIXME
+            print(e)
             raise(e)
 
 

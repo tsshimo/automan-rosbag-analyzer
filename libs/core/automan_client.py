@@ -11,8 +11,6 @@ class AutomanClient():
         host = automan_info['host']
         path = automan_info['path']
         automan_url = host + path
-        print(dataset_candidates)
-        print(automan_url)
         data = {
             'dataset_candidates': dataset_candidates,
             'status': 'analyzed'
